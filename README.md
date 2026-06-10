@@ -17,6 +17,10 @@ This is the Arduino App Lab desktop application. It's a cross-platform applicati
 
 In this desktop flow, apps are managed through the connected board/orchestrator, so there is no separate manual upload step like in the classic Arduino IDE workflow.
 
+For an in-depth technical explanation of UNO Q USB communication internals (including `arduino-app-cli`, Arduino CLI integration, tunnels, and `adb` usage), see:
+
+- [`docs/uno-q-usb-communication-readme.md`](docs/uno-q-usb-communication-readme.md)
+
 ## Issues
 
 GitHub issue reports for both user and contributor facing bugs of App Lab are welcome. 
