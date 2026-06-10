@@ -4,6 +4,19 @@ This is the Arduino App Lab desktop application. It's a cross-platform applicati
 
 <img src="docs/app-lab-screenshot.png" alt="Arduino App Lab" width="600">
 
+## Using App Lab with a board
+
+1. Plug the board in with USB, power it on, and open Arduino App Lab.
+2. Open board selection and choose the connected board.
+3. Wait for connection checks to finish (board and orchestrator reachable). If setup/update prompts appear, complete them first.
+4. Create a new app, choose a name, and confirm.
+5. Open the project files, edit the sketch/code, and save.
+6. Click **Run** (or **Start App**) to launch it on the connected board.
+7. Check app status/logs and the Serial Monitor (if needed) to confirm it is running.
+8. Iterate as needed: edit → save → run, and use **Stop App** when done.
+
+In this desktop flow, apps are managed through the connected board/orchestrator, so there is no separate manual upload step like in the classic Arduino IDE workflow.
+
 ## Issues
 
 GitHub issue reports for both user and contributor facing bugs of App Lab are welcome. 
@@ -63,4 +76,3 @@ to this in your browser, and you can call your Go code from devtools.
 
 ## A note for Linux users
 Some users have reported issues selecting the Arduino Q board in App Lab on Linux. A solution can be found in this [post on the Arduino forum](https://forum.arduino.cc/t/solution-arduino-app-lab-ubuntu-does-nothing-when-selecting-the-board/1411373)
-
